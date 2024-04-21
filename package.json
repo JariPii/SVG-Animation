@@ -1,0 +1,15 @@
+{
+  "name": "svgtester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^11.1.7",
+    "gsap": "^3.12.5"
+  }
+}

@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100svh;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.joker-container {
+  position: relative;
+}
+
+#eyes {
+  position: relative;
+  background-color: green;
+  border: 1px solid;
+}
+
+.black {
+  position: absolute;
+  top: 15%;
+  left: 16%;
+  width: 4rem;
+  height: 2.2rem;
+  background-color: black;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+#flair-btn3 {
+  cursor: pointer;
+  z-index: 10;
+  position: fixed;
+  border-radius: 10%;
+  top: 10%;
+  left: 50%;
+  pointer-events: all;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  padding: 2rem;
+}
